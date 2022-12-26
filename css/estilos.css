@@ -576,6 +576,10 @@ form {
     color: #ffff;
 }
 
+.card-body{
+    width: 80%;
+}
+
 .text-nosotros {
     width: 70%;
     height: 100%;

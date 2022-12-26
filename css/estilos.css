@@ -453,7 +453,7 @@ form {
 
 .contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     height: 80%;
     width: 80%;
@@ -576,7 +576,7 @@ form {
     color: #ffff;
 }
 
-.card-body{
+.card-body {
     width: 80%;
 }
 

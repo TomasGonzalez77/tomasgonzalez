@@ -1,0 +1,165 @@
+/*RESET*/
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
+}
+
+body {
+  background: #41295a;
+  background: linear-gradient(to right, #2F0743, #41295a);
+  box-sizing: border-box;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+}
+.nav a {
+  color: white;
+}
+
+/*Inicio*/
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  background: #41295a;
+  background: linear-gradient(to right, #2F0743, #41295a);
+  color: white;
+}
+.card img {
+  width: 300px;
+  height: 300px;
+}
+/*Complejos*/
+.complejos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid white;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  background-color: transparent;
+  height: 100%;
+}
+.complejos img {
+  display: block;
+  width: 500px;
+}
+.complejos ul {
+  margin: 10px;
+  padding: 10px;
+}
+.complejos ul a {
+  padding: 0;
+  margin: 0;
+  color: greenyellow;
+}
+.complejos ul button {
+  width: 100px;
+}
+
+/*Recomendaciones*/
+.contenedor-r {
+  color: white;
+  width: 100%;
+}
+.contenedor-r form {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+.contenedor-r form section {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.contenedor-r form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 40%;
+}
+.contenedor-r form p {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  margin: 20px;
+}
+
+/*Gracias*/
+.gracias {
+  padding-top: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.gracias h1 {
+  margin: 10px;
+  color: white;
+}
+.gracias img {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+}
+.gracias p {
+  color: white;
+  padding-bottom: 100px;
+}
+
+/*Contacto*/
+.b-contacto {
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.b-contacto ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+.b-contacto ol a {
+  color: white;
+}
+.b-contacto ol img {
+  display: block;
+  width: 70px;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Nosotros*/
+.accordion-item {
+  margin: 100px;
+  background: #41295a;
+  background: linear-gradient(to right, #2F0743, #41295a);
+}
+.accordion-item h2 button {
+  color: white;
+  background-color: #000;
+}
+.accordion-item div {
+  color: white;
+}/*# sourceMappingURL=estilos.css.map */

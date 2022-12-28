@@ -39,9 +39,44 @@ body {
   color: white;
 }
 .card img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 400px;
 }
+@media screen and (max-width: 2600px) {
+  .card img {
+    width: 100%;
+    height: 600px;
+    min-width: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .card img {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card img {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .card img {
+    width: 100%;
+    height: 25%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .card img {
+    width: 100%;
+    height: 25%;
+  }
+}
+.card div a {
+  color: white;
+}
+
 /*Complejos*/
 .complejos {
   display: flex;
@@ -54,9 +89,62 @@ body {
   background-color: transparent;
   height: 100%;
 }
+@media screen and (min-width: 1440) {
+  .complejos {
+    width: auto;
+  }
+}
+@media screen and (max-width: 1024) {
+  .complejos {
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .complejos {
+    max-width: 760px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .complejos {
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .complejos {
+    max-width: 367px;
+  }
+}
 .complejos img {
-  display: block;
-  width: 500px;
+  display: flex;
+  width: 400;
+  justify-content: left;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (min-width: 1440px) {
+  .complejos img {
+    width: 700px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .complejos img {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .complejos img {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .complejos img {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  .complejos img {
+    display: none;
+  }
 }
 .complejos ul {
   margin: 10px;
@@ -89,17 +177,33 @@ body {
   flex-direction: column;
   width: 40%;
 }
+.contenedor-r form section p {
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+}
 .contenedor-r form div {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  width: 40%;
+  width: 50%;
+}
+@media screen and (max-width: 480px) {
+  .contenedor-r form div {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .contenedor-r form div {
+    width: 90%;
+  }
 }
 .contenedor-r form p {
   display: flex;
   flex-direction: row;
   justify-content: right;
   margin: 20px;
+  padding: 20px;
 }
 
 /*Gracias*/
@@ -140,6 +244,18 @@ body {
   padding: 10px;
   margin: 10px;
 }
+@media screen and (max-width: 480px) {
+  .b-contacto ol {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 375px) {
+  .b-contacto ol {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .b-contacto ol a {
   color: white;
 }
@@ -155,6 +271,48 @@ body {
   margin: 100px;
   background: #41295a;
   background: linear-gradient(to right, #2F0743, #41295a);
+  width: 80%;
+}
+@media screen and (min-width: 1440px) {
+  .accordion-item {
+    width: auto;
+    margin: 100px;
+    padding: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .accordion-item {
+    width: auto;
+    margin: 50px;
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .accordion-item {
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .accordion-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .accordion-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+  }
 }
 .accordion-item h2 button {
   color: white;

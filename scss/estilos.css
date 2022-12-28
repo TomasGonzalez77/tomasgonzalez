@@ -22,6 +22,24 @@ body {
   width: auto;
   height: auto;
 }
+@media screen and (max-width: 480px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+  }
+}
+@media screen and (max-width: 375px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+  }
+}
 .nav a {
   color: white;
 }

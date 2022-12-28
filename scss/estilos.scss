@@ -24,6 +24,22 @@ body {
     width: auto;
     height: auto;
 
+    @media screen and (max-width:480px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+    }
+
+    @media screen and (max-width:375px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: auto;
+        height: auto;
+    }
+
     a {
         color: #ffff;
     }

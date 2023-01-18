@@ -65,7 +65,7 @@ body {
     background: linear-gradient(to right, #ffb0e4, #ffceee);
 
     img {
-        width: 100%;
+        width: 10%;
         height: auto;
 
         @media screen and (max-width:2600px) {
@@ -161,6 +161,7 @@ body {
         margin: 10px;
         padding: 10px;
 
+        /*a pertenecientes a las direcciones de los clubes y los button con sus redirecciones para encontrar las paginas web"*/
         a {
             padding: 0;
             margin: 0;
@@ -192,6 +193,7 @@ body {
             flex-direction: column;
             width: 40%;
 
+            /*Selector del form*/
             p {
                 margin: 0;
                 padding: 0;
@@ -199,6 +201,7 @@ body {
             }
         }
 
+        /*Cuadros de texto del form*/
         div {
             display: flex;
             flex-direction: column;
@@ -213,6 +216,8 @@ body {
                 width: 90%;
             }
         }
+
+        /*Boton para enviar formulario*/
 
         p {
             display: flex;
@@ -275,7 +280,7 @@ body {
             flex-direction: column;
         }
 
-
+        /*Logos de redes sociales*/
         img {
             display: block;
             width: 70px;

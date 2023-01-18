@@ -6,19 +6,20 @@
 }
 
 body {
-  background: #41295a;
-  background: linear-gradient(to right, #2F0743, #41295a);
+  background: #ffb0e4;
+  background: linear-gradient(to right, #ffb0e4, #ffceee);
   box-sizing: border-box;
   background-position: center;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: auto;
   height: auto;
 }
@@ -26,7 +27,8 @@ body {
   .nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     margin: 10px;
     padding: 10px;
     width: auto;
@@ -37,9 +39,10 @@ body {
   .nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 10px;
-    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
     width: auto;
     height: auto;
   }
@@ -50,15 +53,12 @@ body {
 
 /*Inicio*/
 .card {
-  display: flex;
-  flex-direction: row;
   width: 95%;
   margin: 20px;
   padding: 20px;
   border: 1px solid black;
-  background: #41295a;
-  background: linear-gradient(to right, #2F0743, #41295a);
-  color: white;
+  background: #ffb0e4;
+  background: linear-gradient(to right, #ffb0e4, #ffceee);
 }
 .card img {
   width: 100%;
@@ -67,26 +67,8 @@ body {
 @media screen and (max-width: 2600px) {
   .card img {
     width: 100%;
-    height: 600px;
+    height: 350px;
     min-width: 300px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .card img {
-    width: 100%;
-    max-width: 300px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .card img {
-    width: 100%;
-    height: 300px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .card img {
-    width: 100%;
-    height: 25%;
   }
 }
 @media screen and (max-width: 375px) {
@@ -95,34 +77,41 @@ body {
     height: 25%;
   }
 }
+@media screen and (max-width: 320px) {
+  .card img {
+    display: none;
+    width: 0%;
+    height: 0%;
+  }
+}
 .card div a {
-  color: white;
+  color: #000;
 }
 
 /*Complejos*/
 .complejos {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  border: 1px solid white;
-  color: white;
-  margin: 5px;
-  padding: 5px;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
   background-color: transparent;
-  height: 100%;
 }
-@media screen and (min-width: 1440) {
+@media screen and (max-width: 1440) {
   .complejos {
-    width: auto;
+    display: flex;
+    width: 100%;
   }
 }
 @media screen and (max-width: 1024) {
   .complejos {
-    width: auto;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
   .complejos {
+    display: flex;
+    flex-direction: column;
     max-width: 760px;
   }
 }
@@ -138,10 +127,8 @@ body {
 }
 .complejos img {
   display: flex;
-  width: auto;
-  justify-content: left;
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 5px;
 }
 @media screen and (min-width: 1440px) {
   .complejos img {
@@ -155,7 +142,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .complejos img {
-    width: 300px;
+    width: auto;
   }
 }
 @media screen and (max-width: 480px) {
@@ -175,7 +162,7 @@ body {
 .complejos ul a {
   padding: 0;
   margin: 0;
-  color: greenyellow;
+  color: grey;
 }
 .complejos ul button {
   width: 100px;
@@ -183,7 +170,6 @@ body {
 
 /*Recomendaciones*/
 .contenedor-r {
-  color: white;
   width: 100%;
 }
 .contenedor-r form {
@@ -192,7 +178,6 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  color: white;
 }
 .contenedor-r form section {
   display: flex;
@@ -237,7 +222,6 @@ body {
 }
 .gracias h1 {
   margin: 10px;
-  color: white;
 }
 .gracias img {
   margin: 10px;
@@ -247,13 +231,11 @@ body {
   width: 200px;
 }
 .gracias p {
-  color: white;
   padding-bottom: 100px;
 }
 
 /*Contacto*/
 .b-contacto {
-  color: white;
   width: 100%;
   height: 100%;
 }
@@ -278,9 +260,6 @@ body {
     flex-direction: column;
   }
 }
-.b-contacto ol a {
-  color: white;
-}
 .b-contacto ol img {
   display: block;
   width: 70px;
@@ -291,8 +270,8 @@ body {
 /*Nosotros*/
 .accordion-item {
   margin: 100px;
-  background: #41295a;
-  background: linear-gradient(to right, #2F0743, #41295a);
+  background: #ffb0e4;
+  background: linear-gradient(to right, #ffb0e4, #ffceee);
   width: 80%;
 }
 @media screen and (min-width: 1440px) {
@@ -337,9 +316,5 @@ body {
   }
 }
 .accordion-item h2 button {
-  color: white;
   background-color: #000;
-}
-.accordion-item div {
-  color: white;
 }/*# sourceMappingURL=estilos.css.map */

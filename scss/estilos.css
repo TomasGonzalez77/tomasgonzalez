@@ -122,7 +122,7 @@ body {
 }
 @media screen and (max-width: 480px) {
   .complejos img {
-    display: none;
+    display: auto;
   }
 }
 @media screen and (max-width: 375px) {

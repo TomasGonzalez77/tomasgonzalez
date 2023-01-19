@@ -122,10 +122,19 @@ body {
 }
 @media screen and (max-width: 480px) {
   .complejos img {
-    display: auto;
+    display: flex;
+    flex-direction: column;
+    width: auto;
   }
 }
 @media screen and (max-width: 375px) {
+  .complejos img {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+}
+@media screen and (max-width: 320px) {
   .complejos img {
     display: none;
   }

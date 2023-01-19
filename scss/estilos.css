@@ -67,6 +67,24 @@ body {
   background: #ffb0e4;
   background: linear-gradient(to right, #ffb0e4, #ffceee);
 }
+@media screen and (min-width: 1440) {
+  .card {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+}
+@media screen and (min-width: 1024) {
+  .card {
+    width: 100%;
+    margin: 50px;
+    padding: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
 .card .container {
   /*Revisar que se realize de forma correcta el commit*/
   width: auto;

@@ -129,9 +129,7 @@ body {
 
     img {
         display: flex;
-        margin: 5px;
-        padding: 5px;
-
+        width: 500px;
 
         @media screen and (min-width:1440px) {
             width: 700px;
@@ -141,9 +139,6 @@ body {
             width: 100%;
         }
 
-        @media screen and (max-width:1024px) {
-            max-width: 400px;
-        }
 
 
         @media screen and (max-width:768px) {

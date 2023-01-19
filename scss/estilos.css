@@ -123,8 +123,7 @@ body {
 }
 .complejos img {
   display: flex;
-  margin: 5px;
-  padding: 5px;
+  width: 500px;
 }
 @media screen and (min-width: 1440px) {
   .complejos img {
@@ -134,11 +133,6 @@ body {
 @media screen and (max-width: 1024) {
   .complejos img {
     width: 100%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .complejos img {
-    max-width: 400px;
   }
 }
 @media screen and (max-width: 768px) {

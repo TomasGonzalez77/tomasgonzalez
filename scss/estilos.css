@@ -15,15 +15,18 @@ body {
   width: 100%;
 }
 
+.footer {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+  align-self: flex-end;
+}
+
 .nav {
   display: flex;
   width: auto;
   height: auto;
-}
-.nav .footer {
-  display: flex;
-  width: 100%;
-  position: relative;
 }
 @media screen and (max-width: 480px) {
   .nav {
@@ -58,6 +61,8 @@ body {
   width: 95%;
   margin: 30px;
   padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   border: 1px solid black;
   background: #ffb0e4;
   background: linear-gradient(to right, #ffb0e4, #ffceee);

@@ -1,6 +1,7 @@
 /*RESET*/
 
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
@@ -10,20 +11,17 @@ body {
     background: #ffb0e4;
     background: -webkit-linear-gradient(to right, #ffb0e4, #ffceee);
     background: linear-gradient(to right, #ffb0e4, #ffceee);
-    box-sizing: border-box;
     background-position: center;
-    margin-left: auto;
-    margin-right: auto;
     flex-wrap: wrap;
     height: 100%;
 }
 
 .nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
     width: auto;
     height: auto;
+
+
 
     @media screen and (max-width:480px) {
         display: flex;
@@ -137,6 +135,10 @@ body {
 
         @media screen and (min-width:1440px) {
             width: 700px;
+        }
+
+        @media screen and (max-width:1024) {
+            width: 100%;
         }
 
         @media screen and (max-width:1024px) {

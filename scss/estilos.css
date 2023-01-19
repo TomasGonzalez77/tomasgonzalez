@@ -68,7 +68,8 @@ body {
   background: linear-gradient(to right, #ffb0e4, #ffceee);
 }
 @media screen and (min-width: 1440) {
-  .card { /*Prueba para ver como se adapta a dispositivos amplios*/
+  .card {
+    /*Prueba para ver como se adapta a dispositivos amplios*/
     width: 100%;
     margin: 10px;
     padding: 10px;
@@ -81,8 +82,8 @@ body {
     width: 100%;
     margin: 50px;
     padding: 50px;
-    margin-top: 90px;
-    margin-bottom: 90px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }
 .card .container {

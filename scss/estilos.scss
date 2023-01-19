@@ -25,7 +25,11 @@ body {
     width: auto;
     height: auto;
 
-
+    .footer {
+        display: flex;
+        width: 100%;
+        position: relative;
+    }
 
     @media screen and (max-width:480px) {
         display: flex;

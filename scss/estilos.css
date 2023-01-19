@@ -20,6 +20,11 @@ body {
   width: auto;
   height: auto;
 }
+.nav .footer {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
 @media screen and (max-width: 480px) {
   .nav {
     display: flex;

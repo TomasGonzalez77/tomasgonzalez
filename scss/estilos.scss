@@ -62,27 +62,8 @@ body {
     background: -webkit-linear-gradient(to right, #ffb0e4, #ffceee);
     background: linear-gradient(to right, #ffb0e4, #ffceee);
 
-    img {
-        width: 10%;
-        height: auto;
-
-        @media screen and (max-width:2600px) {
-            width: 100%;
-            height: 350px;
-            min-width: 300px;
-        }
-
-
-        @media screen and (max-width:375px) {
-            width: 100%;
-            height: 25%;
-        }
-
-        @media screen and (max-width:320px) {
-            display: none;
-            width: 0%;
-            height: 0%;
-        }
+    .container {
+        width: auto;
     }
 
     div {

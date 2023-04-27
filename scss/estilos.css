@@ -16,11 +16,10 @@ body {
 }
 
 .footer {
-  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  text-align: center;
-  padding: 1em;
-  align-self: flex-end;
 }
 
 .nav {
@@ -319,4 +318,14 @@ body {
 .accordion-item h2 button {
   background-color: #000;
   color: #ffb0e4;
+}
+
+.buscar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  bottom: 0;
+}
+.buscar p a {
+  text-decoration: none;
 }/*# sourceMappingURL=estilos.css.map */
